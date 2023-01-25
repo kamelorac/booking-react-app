@@ -1,0 +1,28 @@
+.navbar-header {
+    display: block;
+    justify-content: center;
+    align-items: bottom;
+    text-align: center;
+}
+
+.contact {
+    display: block;
+    padding-top: 50px;
+}
+
+.a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+  
+.class {
+    background: rgba(0,0,0,0.5);
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */

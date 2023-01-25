@@ -1,0 +1,100 @@
+/* span {
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.color_11 {
+  color: gray;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.navBar {
+  overflow-wrap: break-word;
+  text-align: left;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  letter-spacing: 3px;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+
+.navBar button {
+  background: transparent;
+  border: 2px solid white;
+  color: purple;
+  padding: 0.4rem 0.5rem;
+}
+
+.navBar button:hover {
+  background: white;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  padding: 5px;
+}
+
+.background {
+  background-color: purple;
+} */
+
+.navbar {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: 30%;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  padding: 5px;
+}
+
+li {
+ float: right;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+  text-decoration: none;
+  background-color: black;
+}
+
+span {
+  line-height: 24px;
+  font-size: 30px;
+}
+

@@ -1,0 +1,107 @@
+.container {
+  display: wrap;
+  padding: 20px;
+  width: 100%;
+}
+
+.container > p {
+  padding: 15px;
+}
+
+
+.services-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.box{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  display: inline-block;
+  color: white;
+}
+
+.container-item {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.column {
+  text-align: start;
+  font-family: sans-serif;
+  width: 30%;
+}
+
+.subtext {
+  font-size: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.subtext-1 {
+  font-size: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.subtext-2 {
+  font-size: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+
+hr {
+  border: none;
+  border-top: 5px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+.div {
+  width: 70%;
+}
+
+.karaoke {
+  background-color: purple;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+}
+
+.sing {
+  margin-left: 2.5rem;
+  width: fit-content;
+}
+
+.about {
+  background-color: lightblue;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+div.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.info {
+ 
+}

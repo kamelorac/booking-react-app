@@ -1,0 +1,88 @@
+.EventsPage {
+    width: 100%;
+    display: auto;
+    flex-direction: column;
+    gap: 6vh;
+  }
+  
+  .events,
+  .tracks {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 6vh;
+    gap: 4vh;
+  }
+  
+  .events_container,
+  .tracks_container {
+    display: grid;
+    align-items: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6vh;
+  }
+  
+  .event-grid {
+    display: grid;
+    align-self: auto;
+    grid-template-columns: 5;
+    grid-template-rows: 5;
+    background-color: white;
+    width: 75%;
+  }
+  
+  .track {
+    display: grid;
+    align-self: auto;
+    grid-template-rows: 6;
+    background-color: white;
+    width: 75%;
+    margin: 20px;
+    margin-left: 0px;
+  }
+  
+  .event_name {
+    text-align: left;
+    align-items: left;
+  }
+  .event_address {
+    text-align: left;
+  }
+
+  .track_artist {
+    grid-area: 5px;
+  }
+
+  .event_date {
+    grid-area: 5px;
+  }
+
+  .track_album {
+    grid-area: 5px;
+  }
+
+  .event_time {
+    grid-area: 5px;
+  }
+
+  .track_genre {
+    grid-area: 5px;
+  }
+  
+  .track_date {
+    grid-area: 5px;
+  }
+  
+  .track_title,
+  .track_artist,
+  .track_album,
+  .track_date,
+  .track_genre {
+    width: 100%;
+    gap: 5vh;
+  }
+
+.background-color {
+  background-color: yellow;
+}

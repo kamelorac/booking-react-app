@@ -1,0 +1,1 @@
+CREATE DATABASE wolfman_db;

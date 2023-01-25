@@ -1,0 +1,14 @@
+
+
+/* .column {
+    column-count: 3;
+    display: flex;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: bottom;
+    
+} */
